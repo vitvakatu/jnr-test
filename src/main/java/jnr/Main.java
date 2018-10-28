@@ -53,5 +53,9 @@ public class Main {
         System.out.println("LIB CALLBACK(0) = " + lib.use_callback(callback, 0));
         System.out.println("LIB CALLBACK(1) = " + lib.use_callback(callback, 1));
         System.out.println("LIB CALLBACK(-1) = " + lib.use_callback(callback, -1));
+
+        System.out.println("Call LIB CALLBACK(0) = " + callback.call(0));
+        System.out.println("Call LIB CALLBACK(1) = " + callback.call(1));
+        System.out.println("Call LIB CALLBACK(-1) = " + callback.call(-1));
     }
 }
